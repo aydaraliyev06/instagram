@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.head{
+    /* position: relative;
+    bottom: 10px; */
+    width: 100%;
+    background: black;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 10px 110px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnDirect{
+    width: 50px;
+    height: 50px;
+    background: url("");
+    cursor: pointer;
+}
+
+.btnBurger{
+    width: 50px;
+    height: 50px;
+    background: url("https://icon-library.com/images/menu-icon-white/menu-icon-white-2.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.headStoris{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.storis{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 90px;
+}
+
+.footerBtn{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-box{
+    display: none;
+    background: black;
+    column-gap: 100px;
+    max-width: 100%;
+    height: 10px;
+    position: fixed;
+    
+}
+
+.burgerClose{
+    border: 0;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url("https://icon-library.com/images/close-button-icon-png/close-button-icon-png-29.jpg");
+    background-size: cover;
+}
+
+.burgerMenu{
+    display: none;
+    position: fixed;
+    background: gray;
+    row-gap: 20px;
+    flex-direction: column;
+    padding: 0px 20px;
+    bottom: 0px;
+    left: 1090px;
+    width: 500px;
+    height: 625px;
+}
+
+.burgerText{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.btnSearch{
+    border: 0;
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+    width: 80px;
+    height: 38px;
+    position: relative;
+    right: 5px;
+    background: blue;
+}
+
+.inpSearch{
+    border: 0;
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 15px;
+    width: 150px;
+    height: 38px;
+}
+
+.line{
+    margin-top: 5px;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.404);
+}
+
+.burgerSub{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.deleteBtn{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url("");
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.postNavbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postLike{
+    width: 30px;
+    height: 30px;
+    background: url("https://flyclipart.com/thumbs/instagram-logo-love-pictures-instagram-logo-instagram-like-icon-1109746.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.postComment{
+    width: 30px;
+    height: 30px;
+    background: white;
+    cursor: pointer;
+}
+
+.iconPost-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%;
+}
+
+
+
